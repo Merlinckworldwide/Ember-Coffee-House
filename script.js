@@ -115,14 +115,14 @@ document.addEventListener('DOMContentLoaded', () => {
       tr.innerHTML = `
         <td><img src="${item.img}" alt="${item.name}"></td>
         <td>${item.name}</td>
-        <td>$${item.price.toFixed(2)}</td>
+        <td>MWK ${item.price.toLocaleString()}</td>
         <td>${item.qty}</td>
         <td><button class="btn remove-btn" data-id="${item.id}">Remove</button></td>
       `;
       cartTbody.appendChild(tr);
     });
 
-    document.getElementById('cartTotal').textContent = total.toFixed(2);
+    document.getElementById('cartTotal').textContent = total.toLocaleString();
 
     // Attach remove listeners
     document.querySelectorAll('.remove-btn').forEach(btn => {
