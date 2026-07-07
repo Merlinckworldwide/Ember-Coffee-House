@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ember Coffee House | Equipment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Ember Coffee House</a>
+      <button class="hamburger" id="hamburger">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="coffee-selection.html">Coffee</a></li>
+          <li><a href="brewing-equipment.html">Equipment</a></li>
+          <li><a href="events-workshops.html">Events</a></li>
+          <li><a href="special-offers.html">Offers</a></li>
+          <li><a href="shopping-cart.html">Cart</a></li>
+          <li style="display: flex; gap: 15px; align-items: center; margin-left: auto;">
+            <a href="#" style="color: var(--color-light);" title="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+            <a href="#" style="color: var(--color-light);" title="Twitter"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+            <a href="#" style="color: var(--color-light);" title="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    
+    <div style="text-align: center; margin-bottom: 2rem;">
+      <h2>Brewing Equipment</h2>
+      <p>Elevate your daily ritual with the tools we use in the shop.</p>
+    </div>
+
+    <!-- Equipment Grid -->
+    <div class="grid">
+      
+      <div class="card">
+        <img src="images/fallback_1.jpg" alt="Espresso Machine" class="card-img">
+        <div class="card-body">
+          <h3>Ember Pro Espresso Machine</h3>
+          <p>Professional-grade temperature control and built-in grinder for the perfect pull.</p>
+          <p style="font-size: 0.9rem; color: var(--color-accent); margin-bottom: 1rem;"><strong>Tip:</strong> Always purge the steam wand before and after texturing milk.</p>
+          <button class="btn add-to-cart" style="margin-top: auto;" data-id="e1" data-name="Ember Pro Espresso Machine" data-price="750.00" data-img="images/img_1.jpg">Add to Cart - $750.00</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/img_2.jpg" alt="Pour Over Kit" class="card-img">
+        <div class="card-body">
+          <h3>Ceramic Pour-Over Kit</h3>
+          <p>Includes a ceramic dripper and glass carafe for a clean, nuanced cup.</p>
+          <p style="font-size: 0.9rem; color: var(--color-accent); margin-bottom: 1rem;"><strong>Tip:</strong> Rinse the paper filter with hot water before adding grounds to remove any papery taste.</p>
+          <button class="btn add-to-cart" style="margin-top: auto;" data-id="e2" data-name="Ceramic Pour-Over Kit" data-price="45.00" data-img="images/img_7.jpg">Add to Cart - $45.00</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/img_14.jpg" alt="French Press" class="card-img">
+        <div class="card-body">
+          <h3>Classic French Press</h3>
+          <p>A simple, elegant way to brew full-bodied coffee without paper filters.</p>
+          <p style="font-size: 0.9rem; color: var(--color-accent); margin-bottom: 1rem;"><strong>Tip:</strong> Use a coarse, even grind and steep for exactly 4 minutes.</p>
+          <button class="btn add-to-cart" style="margin-top: auto;" data-id="e3" data-name="Classic French Press" data-price="35.00" data-img="images/img_24.jpg">Add to Cart - $35.00</button>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <img src="images/real_grinder.jpg" alt="Precision Coffee Grinder" class="card-img">
+        <div class="card-body">
+          <h3>Precision Coffee Grinder</h3>
+          <p>Flat burr grinder designed for uniform grind size and maximum flavor extraction.</p>
+          <p style="font-size: 0.9rem; color: var(--color-accent); margin-bottom: 1rem;"><strong>Tip:</strong> Clean the burrs monthly for best performance.</p>
+          <button class="btn add-to-cart" style="margin-top: auto;" data-id="e4" data-name="Precision Coffee Grinder" data-price="250.00" data-img="images/img_22.jpg">Add to Cart - $250.00</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/real_kettle.jpg" alt="Gooseneck Kettle" class="card-img">
+        <div class="card-body">
+          <h3>Electric Gooseneck Kettle</h3>
+          <p>Precise temperature control and flow rate for the perfect pour-over experience.</p>
+          <p style="font-size: 0.9rem; color: var(--color-accent); margin-bottom: 1rem;"><strong>Tip:</strong> Aim for 200°F (93°C) for light and medium roasts.</p>
+          <button class="btn add-to-cart" style="margin-top: auto;" data-id="e5" data-name="Electric Gooseneck Kettle" data-price="120.00" data-img="images/img_9.jpg">Add to Cart - $120.00</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/real_aeropress.jpg" alt="Aeropress" class="card-img">
+        <div class="card-body">
+          <h3>AeroPress Coffee Maker</h3>
+          <p>Compact and durable, perfect for travel or making a quick, clean cup at home.</p>
+          <p style="font-size: 0.9rem; color: var(--color-accent); margin-bottom: 1rem;"><strong>Tip:</strong> Try the inverted method for a longer steeping time.</p>
+          <button class="btn add-to-cart" style="margin-top: auto;" data-id="e6" data-name="AeroPress Coffee Maker" data-price="30.00" data-img="images/img_11.jpg">Add to Cart - $30.00</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Ember Coffee House</h4>
+          <p>Chilobwe road<br>Kandodocoffieevielle, CKF 2002</p>
+          <p>Email: kandodo@embercoffee.com</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="coffee-selection.html">Shop Coffee</a></li>
+            <li><a href="brewing-equipment.html">Equipment</a></li>
+            <li><a href="events-workshops.html">Events</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Social</h4>
+          <ul class="footer-links">
+            <li><a href="#"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 5px;"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>Instagram</a></li>
+            <li><a href="#"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 5px;"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>Twitter</a></li>
+            <li><a href="#"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 5px;"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <p>&copy; 2026 Ember Coffee House. Hand-crafted with care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
