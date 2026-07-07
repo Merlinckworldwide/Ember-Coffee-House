@@ -428,3 +428,28 @@ img {
     font-size: 2rem;
   }
 }
+
+/* Logo — image + text side by side */
+.logo {
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+.logo-img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  flex-shrink: 0;
+  background-color: #DEB896;  /* lighter warm tan background */
+  padding: 6px 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.35);
+}
+.logo-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-light);
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
